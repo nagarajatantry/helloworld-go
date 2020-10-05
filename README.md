@@ -7,6 +7,6 @@ A simple hello world service written in go. Intent is to build docker image and 
 
 ```
 docker build -t hello-api .
-docker tag hello-api:latest docker.intuit.com/personal/ntantry/hello-api:latest
-docker push docker.intuit.com/personal/ntantry/hello-api:latest
+docker tag hello-api:latest <docker location>
+docker push <docker location>
 ```
